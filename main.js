@@ -41,8 +41,8 @@ console.log("Model Loaded");
 function gotPoses(results) {
 if(results.length > 0) {
 console.log(results);
-rightwristX = results[0].pose.rightWrist.X;
-rightwristY = results[0].pose.rightWrist.Y;
+rightwristX = results[0].pose.rightWrist.x;
+rightwristY = results[0].pose.rightWrist.y;
 console.log("Right Wrist X = " + rightwristX + "Right Wrist Y = " + rightwristY);
     scorerightwrist = results[0].pose.keypoints[10].score;
     console.log(scorerightwrist);
