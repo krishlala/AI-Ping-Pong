@@ -67,7 +67,6 @@ function draw(){
 
 
 
- background(0); 
 
  fill("black");
  stroke("black");
